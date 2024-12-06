@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Search</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body class="light-mode">
+  <header>
+    <h1>Job Search</h1>
+    <button id="themeToggleButton">Dark Mode</button>
+  </header>
+
+  <main>
+    <h2>Use the search form below to find job opportunities based on title and location:</h2>
+    <div class="margin">
+      <label for="jobTitle">Job Title:</label>
+      <input type="text" id="jobTitle" />
+    </div>
+    <div class="margin">
+      <label for="location">Location:</label>
+      <input type="text" id="location" />
+    </div>
+    <button id="searchButton" class="margin">Search</button>
+    <h3>Results</h3>
+    <p id="jobCount"></p>
+    <ul id="resultsList"></ul>
+  </main>
+  
+  <footer>
+    <p>Henry G. 2024. Job Search Platform</p>
+  </footer>
+
+  <script src="CH7.js"></script>
+</body>
+</html>
